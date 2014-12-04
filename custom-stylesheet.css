@@ -4,48 +4,48 @@
 /* Font */
 
 body {
-	font-family: |FONTFAMILY1| /* |FONTFAMILY1|*/;
-	font-size:|FONTSIZE1| /* |FONTSIZE1| */;	
+	font-family: |FONTFAMILY1| /* FONTFAMILY1*/;
+	font-size:|FONTSIZE1| /* FONTSIZE1 */;	
 }
 
 @font-face {
     font-family: |FONTFAMILY1|;
-    src: |FONTSOURCE1| /* |FONTSOURCE1| */;
+    src: |FONTSOURCE1| /* FONTSOURCE1 */;
 }
 
 @font-face {
 	font-family: |FONTFAMILY2|;
-	src:|FONTSOURCE2| /* |FONTSOURCE2| */;
+	src:|FONTSOURCE2| /* FONTSOURCE2 */;
 	font-weight:bold;	
 }
 
 h1 {
-	font-size:|FONTSIZE2| /*|FONTSIZE2|*/;	
+	font-size:|FONTSIZE2| /*FONTSIZE2*/;	
 }
 
 * a, a:hover {
-	color:|COLOR1| /* |COLOR1| */;
+	color:|COLOR1| /* COLOR1 */;
 }
 
 /* Buttons */
 
 .btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-	background-color:|COLOR1| /* |COLOR1| */;		
-	border-color:|COLOR1| /* |COLOR1| */;
+	background-color:|COLOR1| /* COLOR1 */;		
+	border-color:|COLOR1| /* COLOR1 */;
 }
 
 .navbar-nav > li > a {
-	text-transform:uppercase /* |FONTCASE1| */;
-	color:|COLOR1| /* |COLOR1| */;
-	font-weight:|FONTWEIGHT1| /* |FONTWEIGHT1| */;	
-	font-size:1em /*|FONTSIZE3|*/;	
+	text-transform:uppercase /* FONTCASE1 */;
+	color:|COLOR1| /* COLOR1 */;
+	font-weight:|FONTWEIGHT1| /* FONTWEIGHT1 */;	
+	font-size:1em /*FONTSIZE3*/;	
 }
 
 /* Input Fields */
 
 input.form-control, #srch-zip {
-	background-color:|COLOR3| /* |COLOR3| */;
-	border-color:|COLOR3| /* |COLOR3| */;
+	background-color:|COLOR3| /* COLOR3 */;
+	border-color:|COLOR3| /* COLOR3 */;
 }
 
 
@@ -53,16 +53,16 @@ input.form-control, #srch-zip {
 
 
 #side_nav, #featured, #top_retailers {
-	border: |BORDERWIDTH1|  /* |BORDERWIDTH1| */;	}
+	border: |BORDERWIDTH1|  /* BORDERWIDTH1 */;	}
 
 .panel-default>.panel-heading {
-	padding-left:|INDENT| /* |INDENT| */;	
-	background-color:|COLOR5| /* |COLOR5| */;
-	font-weight:|FONTWEIGHT2| /* |FONTWEIGHT2| */;
-	border-color:|COLOR4| /* |COLOR4| */;
+	padding-left:|INDENT| /* INDENT */;	
+	background-color:|COLOR5| /* COLOR5 */;
+	font-weight:|FONTWEIGHT2| /* FONTWEIGHT2 */;
+	border-color:|COLOR4| /* COLOR4 */;
 }
 #offer_table thead>tr>th, .panel-default>.panel-heading {
-	border-width:|BORDERWIDTH2| /* |BORDERWIDTH2| */;	
+	border-width:|BORDERWIDTH2| /* BORDERWIDTH2 */;	
 }
 
 /* Left Nav */
@@ -72,19 +72,23 @@ input.form-control, #srch-zip {
 }
 
 #side_nav .panel-body {
-	padding-left:|INDENT| /* |INDENT| */;	}
+	padding-left:|INDENT| /* INDENT */;	}
 
 /* Activate Offers */
 
 button.activated {
-	border-color:|COLOR1| /* |COLOR1| */;
-	color:|COLOR1| /* |COLOR1| */;
+	border-color:|COLOR1| /* COLOR1 */;
+	color:|COLOR1| /* COLOR1 */;
 }
 
 /* Radio Buttons */
 
-label.css-label {
+input.css-checkbox[type="radio"]:checked + label.css-label {
 	background-color:|COLOR1| /* COLOR1 */;	
+}
+
+label.css-label {
+	border-color:|COLOR1| /* COLOR1 */;		
 }
 
 /* Dropdown Default BG */
@@ -100,61 +104,55 @@ label.css-label {
 /* Dropdowns White BG */
 
 .selectboxit-container .selectboxit.white {
-	color:|COLOR1| /* |COLOR1| */;
+	color:|COLOR1| /* COLOR1 */;
 }
 
 .selectboxit-btn.white {
-	border-color:|COLOR1| /* |COLOR1| */;	
+	border-color:|COLOR1| /* COLOR1 */;	
 }
 
 .white .selectboxit-default-arrow {
-	border-top:8px solid |COLOR1| /* |COLOR1| */;	
+	border-top:8px solid |COLOR1| /* COLOR1 */;	
 }
 
 
 /* View All Retailers */
 
 ul.retailers_list li a  {
-	color:|COLOR4| /* |COLOR2| */;
-	font-weight:|FONTWEIGHT2| /* |FONTWEIGHT2| */;	
+	color:|COLOR4| /* COLOR2 */;
+	font-weight:|FONTWEIGHT2| /* FONTWEIGHT2 */;	
 }
 
 /* Offer Tables */
 
 #offer_table thead>tr>th {
-	border-color:|COLOR4| /* |COLOR4| */;	
-	border-width:|BORDERWIDTH2| /* |BORDERWIDTH2| */;
+	border-color:|COLOR4| /* COLOR4 */;	
+	border-width:|BORDERWIDTH2| /* BORDERWIDTH2 */;
 }
 
 #offer_table thead th a {
-	color:|COLOR1| /* |COLOR1| */;	
+	color:|COLOR1| /* COLOR1 */;	
 }
 
 #offer_table td a, #offer_table th a {
-	color:|COLOR4| /* |COLOR2| */;
-	font-weight:|FONTWEIGHT2| /* |FONTWEIGHT2| */;	
+	color:|COLOR4| /* COLOR2 */;
+	font-weight:|FONTWEIGHT2| /* FONTWEIGHT2 */;	
 }
 
 #offer_table tr td.currency p a span.glyphicon {
-	display:none /* |OFFERARROW| */;	
+	display:|OFFERARROW| /* OFFERARROW */;	
 }
 
 /* Footer */
 
 footer {
-	background:|COLOR6| /* |COLOR6| */;
+	background:|COLOR6| /* COLOR6 */;
 }
 
 footer ul li a {
-	color:|COLOR5|/* |COLOR5| */;	
+	color:|COLOR5|/* COLOR5 */;	
 }
 
 footer ul li.divider {
-	color:|COLOR1| /* |COLOR1| */;
-}
-
-@media (max-width: 768px) {
-
-
-	
+	color:|COLOR1| /* COLOR1 */;
 }
