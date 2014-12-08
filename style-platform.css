@@ -1,0 +1,1025 @@
+body {
+	padding-top:10px;	
+}
+
+.navbar .divider-vertical {
+height: 40px;
+margin-top: 18px;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ffffff;
+}
+
+.btn {
+	border-radius:0px;
+}
+	
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	vertical-align:middle;	
+	text-align:center;
+}
+
+.modal-content .more_locations {
+	height:400px;
+	overflow-y:auto;	
+}
+.modal-content .more_locations hr {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.sidebar a:hover {
+	background:none !important;
+}
+* { border-radius:0px !important; box-shadow:none !important;}
+
+* select {display:none !important;}
+
+input.form-control, #srch-zip {
+	background:#ebebeb;
+	color:#666;	
+}
+
+.error {
+        background: #ffecec;
+        border: 1px solid #f5aca6;
+        border-radius: 2px !important;
+        -moz-border-radius: 2px !important;
+        -webkit-border-radius: 2px !important;
+        padding: 6px 12px;
+}
+
+/* Off Canvas */
+
+.navmenu, .navbar-offcanvas {
+	width:70%;
+}	
+
+/* Top Links */
+
+#top_links a {
+	font-size:.9em;	
+}
+
+/* Navbrand logo 80px height */
+
+.navbar-brand {
+	height:80px;	
+}
+
+.navbar-nav > li > a {
+	margin-top:15px;
+}
+
+/* Navbar Toggle */
+
+.navbar-toggle {
+	margin-right:0px;	
+}
+
+.navbar-toggle .icon-bar {
+	background-color:#CCC;
+	height:3px;	
+}
+
+/* Nav */
+
+.navbar-right {
+	padding-right:0px;	
+}
+
+
+/* Left Nav */
+
+#side_nav h5 {
+	font-weight:bold;	
+}
+
+ul.nav-sidebar li a.active {
+	color:#000;
+	font-weight:bold;	
+}
+
+#side_nav .panel-body .nav>li>a {
+	padding-left:0px;	
+}
+
+#side_nav ul ul {
+	margin-left:25px;
+}	
+
+
+
+/* Search Bar */
+
+#desktop_search {
+	margin-top:25px;
+	padding-right:0px;
+	padding-left:0px;	
+}
+
+/* Featured Offers */
+
+
+img.ninety {
+	margin-top:5px;
+	margin-bottom:10px;	
+}
+
+/* Carousel */
+
+.carousel {
+	padding-bottom:25px;	
+}
+
+.carousel-inner {
+	margin-bottom:30px;	
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	width:100%;	
+}
+
+.carousel-indicators {
+	xwidth:20%;	
+	margin-left:-50px;
+	padding-left:0px;
+	text-align:left;
+	margin-bottom:3px;
+}
+
+.carousel-indicators, #carouselButtons {
+	bottom:15px;	
+}
+
+
+.carousel-indicators li {
+	background-color:#666;
+	border-color:#CCC;
+	border-radius:10px !important;
+	border:none;
+}
+
+
+.carousel-indicators li.active {
+	background-color:#3276b1;	
+}
+
+#carouselButtons {
+	padding-right:0px;
+}
+
+#carouselButtons .play #pauseButton {
+	display:none;
+}
+
+#carouselButtons .pause #playButton {
+	display:none;	
+}
+
+
+/* Scrolling Retailers */
+
+.bx-wrapper {
+	margin-bottom:30px;	
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	border-radius:5px !important;	
+}
+
+/* Vertical Center Images */
+
+a.offer-imageLink {
+	height:100px;
+	width:120px;
+	display:table-cell;
+	vertical-align:middle;	
+	margin:0px auto;
+}
+
+/* Top Retailers */
+
+#top_retailers .panel-body {
+	padding-bottom:25px;	
+}
+
+#top_retailers .col-md-3 {
+	xheight:200px;	
+}
+
+#top_retailers a img {
+	max-width:100px;
+	max-height:100px;	
+}
+#top_retailers .center {
+    display: table;
+    width: 100%;
+    height: 100px; /* for demo only */
+}
+#top_retailers .center .v-align {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Zip Field */
+
+li.zip_field {
+	margin-bottom:-8px !important;	
+}
+
+li.zip_field .input-group {
+	xmargin-top:25px;	
+}
+
+#merchant_search ul li {
+	xmargin-bottom:0px;	
+}
+
+li.zip_field {
+	width:30%;
+}
+
+@media (max-width:768px) {
+	li.zip_field { margin-bottom:-20px !important; width:60%;}	
+}
+
+@media (max-width:502px) {
+	li.zip_field { margin-top:10px; width:100%;}
+}
+
+/* Product Images */
+
+img.product {
+	max-height:200px;
+	max-width:200px;	
+}
+
+/* How it Works */
+@media (max-width:768px) {
+#hiw-images .block-display-txt {
+	text-align:center;	
+}
+}
+
+/* All Retailer */
+	
+.alpha_paging {
+	
+}
+
+.alpha_paging div {
+	background:#F5F5F5;
+	margin:20px 0px;
+	
+}
+
+.alpha_paging div.mobile_paging {
+	height:65px;
+	padding:10px 15px;	
+}
+
+
+.alpha_paging div.mobile_paging h2 {
+	margin-top:5px;	
+}
+
+.alpha_paging h2 {
+	font-size:1.2em;	
+}
+
+.alpha_paging ul, .alpha_paging h2 {
+	padding:10px 5px;
+	margin:0px;	
+	line-height:1;
+}
+
+.alpha_paging ul li {
+	list-style:none;
+	display:inline;	
+	font-size:1.2em;
+}
+
+.alpha_paging ul li a.active {
+	color:#333;	
+}
+
+.alpha_paging ul li a.top {
+	margin-left:10px;	
+}
+
+ul.retailers_list {
+	padding-left:5px;	
+}
+
+ul.retailers_list li {
+	list-style:none;
+	xline-height:2;	
+}
+
+ul.retailers_list li span {
+	margin-bottom:5px;
+}	
+
+ul.retailers_list li a, ul.retailers_list li span {
+	float:left;
+	clear:both;
+	word-wrap:break-word;
+}
+
+/* Offer Table */
+
+#merchant-toggle {
+	margin-bottom:25px;	
+}
+
+#merchant_search label {
+	font-weight:normal;	
+}
+
+#merchant_search ul li {
+	margin-bottom:15px;	
+}
+
+#merchant_search .selectboxit-container {
+	margin-top:-10px;	
+}
+
+ #offer_table thead tr th {
+	font-weight:bold;	 
+ }
+
+#offer_table tr td, #offer_table tr th  {
+	padding:20px 5px;
+	width:20%;	
+}
+
+ #offer_table tr th {
+	font-weight:normal; 
+ }
+ 
+#offer_pagination {
+	xborder: #ddd solid 1px; 
+	xbackground: #eee; 
+	padding: 10px;
+	text-align:center;	 
+ }
+ 
+ #offer_pagination a:hover {
+	color:#2a6496; 
+ }
+ 
+#offer_pagination .glyphicon, #offer_pagination .glyphicon:hover {
+	text-decoration:none;
+	border:1px solid #006699;
+	border-radius:18px !important;
+	background-color:#006699;
+	color:#FFF;
+	padding:8px 9px 8px 10px;
+}
+ 
+input[type=radio].css-checkbox {
+	display:none;
+}
+
+input[type=radio].css-checkbox + label.css-label {
+	padding-left:29px;
+	height:31px; 
+	display:inline-block;
+	line-height:26px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:24px;
+	vertical-align:middle;
+	cursor:pointer;
+
+}
+
+input[type=radio].css-checkbox:checked + label.css-label {
+	background-position: 0 -24px;
+	background-color:#428bca;
+}
+label.css-label {
+	xbackground-image: url(../images/radio_bg.png);
+	border-radius:15px !important;
+	width:29px;
+	border:2px solid #428bca;
+	margin-right:120px;
+	background-color:#FFF;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+label.css-label span.text {
+	margin-left:10px;	
+}
+
+/* Activate Offers */
+
+button.activated {
+	border-color:#3276b1;
+	color:#3276b1;
+}
+
+/* Offer Details Arrows */
+
+#offer_table tr td.currency p a span.glyphicon {
+	display:inline-block;	 /* Toggle */
+}
+
+/*
+ * jquery.selectBoxIt.css 3.8.1
+ * Author: @gregfranko
+ */
+
+/*
+  Common CSS Properties
+  ---------------------
+  These properties will be applied to any themes that you use
+*/
+
+/* SelectBoxIt container */
+.selectboxit-container {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Styles that apply to all SelectBoxIt elements */
+.selectboxit-container * {
+  /* Prevents text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  outline: none;
+  white-space: nowrap;
+}
+
+/* Button */
+.selectboxit-container .selectboxit {
+  width: 220px; /* Width of the dropdown button */
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  color:#FFF;
+}
+
+/* Height and Vertical Alignment of Text */
+.selectboxit-container span, .selectboxit-container .selectboxit-options a {
+  height: 36px; /* Height of the drop down */
+  line-height: 36px; /* Vertically positions the drop down text */
+  display: block;
+}
+
+/* Focus pseudo selector */
+.selectboxit-container .selectboxit:focus {
+  outline: 0;
+}
+
+/* Disabled Mouse Interaction */
+.selectboxit.selectboxit-disabled, .selectboxit-options .selectboxit-disabled {
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  cursor: default;
+}
+
+/* Button Text */
+.selectboxit-text {
+  text-indent: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: left;
+}
+
+.selectboxit .selectboxit-option-icon-container {
+  margin-left: 5px;
+}
+
+/* Options List */
+.selectboxit-container .selectboxit-options {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-width: 100%;  /* Minimum Width of the dropdown list box options */
+  *width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: auto;
+  cursor: pointer;
+  display: none;
+  z-index: 9999999999999;
+  border-radius: 6px;
+  text-align: left;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* Individual options */
+ .selectboxit-option .selectboxit-option-anchor{
+  padding: 0 2px;
+}
+
+/* Individual Option Hover Action */
+.selectboxit-option .selectboxit-option-anchor:hover {
+  text-decoration: none;
+}
+
+/* Individual Option Optgroup Header */
+.selectboxit-option, .selectboxit-optgroup-header {
+  text-indent: 5px; /* Horizontal Positioning of the select box option text */
+  margin: 0;
+  list-style-type: none;
+}
+
+/* The first Drop Down option */
+.selectboxit-option-first {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+/* The first Drop Down option optgroup */
+.selectboxit-optgroup-header + .selectboxit-option-first {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+/* The last Drop Down option */
+.selectboxit-option-last {
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+/* Drop Down optgroup headers */
+.selectboxit-optgroup-header {
+  font-weight: bold;
+}
+
+/* Drop Down optgroup header hover psuedo class */
+.selectboxit-optgroup-header:hover {
+  cursor: default;
+}
+
+/* Drop Down down arrow container */
+.selectboxit-arrow-container {
+  /* Positions the down arrow */
+  width: 30px;
+  position: absolute;
+  right: 0;
+  xborder-left:1px solid #FFF;
+}
+
+/* Drop Down down arrow */
+.selectboxit .selectboxit-arrow-container .selectboxit-arrow {
+  /* Horizontally centers the down arrow */
+  margin: 0 auto;
+  position: absolute;
+  top: 42%;
+  right: 0;
+  left: 0;
+}
+
+/* Drop Down down arrow for jQueryUI and jQuery Mobile */
+.selectboxit .selectboxit-arrow-container .selectboxit-arrow.ui-icon {
+  top: 30%;
+}
+
+/* Drop Down individual option icon positioning */
+.selectboxit-option-icon-container {
+  float: left;
+}
+
+.selectboxit-container .selectboxit-option-icon {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+/* Drop Down individual option icon positioning */
+.selectboxit-option-icon-url {
+  width: 18px;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  float: left;
+}
+
+.selectboxit-rendering {
+  display: inline-block !important;
+  *display: inline !important;
+  zoom: 1 !important;
+  visibility: visible !important;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+/* jQueryUI and jQuery Mobile compatability fix - Feel free to remove this style if you are not using jQuery Mobile */
+.jqueryui .ui-icon {
+  background-color: inherit;
+}
+
+/* Another jQueryUI and jQuery Mobile compatability fix - Feel free to remove this style if you are not using jQuery Mobile */
+.jqueryui .ui-icon-triangle-1-s {
+  background-position: -64px -16px;
+}
+
+/* White background */
+
+.selectboxit-btn.white {
+	background-color:#FFF;
+	border-color:#3276b1;	
+}
+
+
+.selectboxit-container .selectboxit.white {
+	color:#3276b1;	
+}
+
+.white .selectboxit-arrow-container {
+	xborder-left:1px solid #3276b1;
+}
+
+.white .selectboxit-default-arrow {
+	border-top: 8px solid #3276b1;
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;	
+}
+
+/*
+  Default Theme
+  -------------
+  Note: Feel free to remove all of the CSS underneath this line if you are not using the default theme
+*/
+.selectboxit-btn {
+  background-color: #3276b1;	
+}
+
+.selectboxit-default-arrow {
+  width: 0;
+  height: 0;
+  border-top: 8px solid #FFF;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+ }
+
+.selectboxit-list {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.selectboxit-list .selectboxit-option-anchor {
+  color: #333333;
+}
+
+.selectboxit-list > .selectboxit-focus > .selectboxit-option-anchor {
+  color: #ffffff;
+  background-color: #0081c2;
+}
+
+.selectboxit-list > .selectboxit-disabled > .selectboxit-option-anchor {
+  color: #999999;
+}
+
+/* Registration */
+
+#registration_two .checkbox, #log_in .checkbox {
+	margin-left:15px;
+}
+
+.menu_hide, .lockscreen_off{
+    display: none;
+}
+/* My Account */
+
+
+#account > tbody > tr > td {
+	text-align:left;	
+}
+
+/* Interstitial */
+
+#interstitial {
+	margin-top:50px;	
+}
+
+/* Footer */
+
+footer {
+	margin-top:35px;
+	padding-top:40px;
+	padding-bottom:40px;
+	border-top:1px solid #DDD;	
+}
+
+footer ul li {
+	display:inline-block;	
+}
+
+
+@media (min-width:991px) {
+.navbar-collapse, .navbar .container-fluid {
+	padding-right:0px;
+}
+
+#registration_one .col-md-4, 
+#registration_one .col-md-2,
+#registration_two .col-md-4 {
+	margin-right:15px;
+	xpadding-right:0px;
+}
+
+
+}
+
+@media (min-width:768px) {
+
+footer {
+	padding-right:50px;
+	padding-left:50px;	
+}
+	
+footer .row #footer-links .list-unstyled {
+	xtext-align: right;
+}	
+
+footer {
+	text-align:center;	
+}
+}
+
+@media (min-width:768px) and (max-width:991px) {
+	
+	#desktop_search {
+	margin-right:-15px;
+	margin-left:-15px;
+	}
+	#registration_one .col-sm-6,
+#registration_one .col-sm-4 {
+	margin-right:15px;	
+}
+
+li.zip_field {
+	margin-bottom:-20px !important;	
+}
+
+li.zip_field {
+width: 25%;
+}
+}
+
+@media (max-width:991px) {
+
+/* Mobile Navbar */
+
+#mobile_nav div {
+	margin-bottom:10px;	
+}
+.form-control {
+	height:46px;
+	font-size:16px;
+}
+
+#avatar a.dropdown-toggle {
+	margin-top:8px;
+	margin-bottom:8px;
+	float:right;	
+}
+
+#avatar ul.dropdown-menu {
+	left:-80px;		
+}
+
+#avatar ul.dropdown-menu li a {
+	padding:12px 20px;
+	font-size:16px;	
+}
+
+
+#mobile_search .btn-primary, .btn {
+	padding-top:12px;
+	padding-bottom:12px;	
+}
+
+.main {
+	padding-left:0px;	
+	padding-right:0px;	
+}
+
+/* Height and Vertical Alignment of Text */
+.selectboxit-container span, .selectboxit-container .selectboxit-options a {
+  height: 46px; /* Height of the drop down */
+  line-height: 46px; /* Vertically positions the drop down text */
+  display: block;
+}
+
+
+	
+}
+
+@media (max-width: 768px) {
+
+body {
+	padding-top:8px;	
+}
+
+.navmenu, .navbar-offcanvas {
+	width:60%;	
+}
+
+.offcanvas .dropdown-menu>li>a {
+	position:relative;
+	z-index:999999;	
+}
+
+.main, #carousel, #featured, #top_retailers {
+	padding:0px;	
+}
+
+#featured .panel, #top_retailers .panel {
+	border-left:0px;
+	border-right:0px;
+	border-radius:0px;	
+}
+	
+.btn-primary, .btn-default {
+	padding-top:12px;
+	padding-bottom:12px;	
+}
+
+.carousel-indicators {
+	xwidth:60%;	
+	bottom:-7px;
+	margin-left:-15px;
+	left:55%;
+	width:50%;
+}
+
+.carousel-indicators li {
+	height:24px;
+	width:24px;
+	border-radius:22px !important;	
+}
+
+.carousel-indicators .active {
+	width:26px;
+	height:26px;
+}
+
+#carouselButtons {
+	margin-left:15px;	
+}
+
+#carouselButtons .btn {
+	padding:14px;
+	font-size:18px;
+	line-height:1;	
+}
+
+#category_dropdown {
+	margin-top:30px;	
+}
+
+#top_retailers .panel .col-xs-6  {
+	margin-bottom:40px;	
+}
+
+#merchant_search .first_row {
+	margin-bottom:10px;	
+}
+
+#registration_one .col-xs-8 {
+	margin-right:15px;
+}
+
+.selectboxit-container span {
+		
+}
+
+ #offer_table {
+	margin-left:-15px;
+	margin-right:-15px;
+	max-width:110%; 
+	width:110%;
+ }
+ 
+ #mobile_facets .selectboxit {
+    width: 100% !important;
+}
+
+#mobile_facets .selectboxit-container {
+	width:100%;	
+}
+
+#mobile_facets .selectboxit-container .selectboxit-options {
+	width:100%;	
+}
+ 
+.pref-box label {
+  margin:10px 0px;  
+}
+
+.pref-box input {
+  float: left; 
+  width: 40px; 
+  height: 40px; 
+  background: url('http://www.gravatar.com/avatar/a2614a382fe86e0f69c1beb27182a63b?s=32&d=identicon&r=PG'); 
+  padding:20px 0px;
+  margin-top:-10px;
+   
+}
+
+
+footer {
+	border-top:none;
+	padding-top:0px;	
+	background:#3276b1;
+	margin-left:-30px;
+	margin-right:-30px;
+}
+
+#footer-links {
+	padding:0px;	
+}
+
+footer .row {
+	margin-left:0px;
+	margin-right:0px;
+}	
+
+footer ul li {
+	display:block;	
+}
+
+footer li a {
+	padding:20px 10px;
+	display:block;
+	font-weight:bold;
+	border-bottom:1px solid #FFF;
+}
+
+footer li a, footer li a:hover, footer li a:focus {
+	color:#FFF;	
+	text-decoration:none;
+}
+
+footer #copyright {
+	padding:40px 15px 10px;	
+	color:#FFF;
+}
+
+}
+
+@media (max-width: 642px) {
+.bx-wrapper {
+	max-width:526px !important;
+}	
+}
+
+@media (max-width: 609px) {
+	.bx-wrapper {
+	max-width:477px !important;
+}
+}
+
+@media (max-width: 500px) {
+.bx-wrapper {
+	max-width:242px !important;
+}
+
+.table-responsive>.table>thead>tr>th, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tfoot>tr>td {
+	white-space:normal;	
+}
+
+#offer_table tr td, #offer_table tr th {
+	word-wrap:break-word !important;	
+	max-width:200px;
+}
+
+
+}
+.navbar-right {
+}
+
+

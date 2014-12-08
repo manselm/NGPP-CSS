@@ -10,7 +10,10 @@ body {
 
 @font-face {
 	font-family: |FONTFAMILY1|;
-	src:|FONTSOURCE1| /* FONTSOURCE1 */;
+	src: |FONTSOURCE1| /* FONTSOURCE1 */;
+	src: |FONTSOURCE1|.woff2) format('woff2') /* FONTSOURCE1 */,
+         |FONTSOURCE1|.woff) format('woff') /* FONTSOURCE1 */,
+         |FONTSOURCE1|.ttf) format('truetype') /* FONTSOURCE1 */,
 }
 
 
