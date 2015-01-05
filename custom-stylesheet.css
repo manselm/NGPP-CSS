@@ -9,15 +9,24 @@ body {
 }
 
 @font-face {
-	font-family: |FONTFAMILY1|;
-	src:|FONTSOURCE1| /* FONTSOURCE1 */;
+    font-family: '|FONTFAMILY1|' /* FONTFAMILY1*/;
+    src: url('/e/bootstrap/fonts/Gotham-Book.eot') /* FONTSOURCE1 */;
+    src: url('/e/bootstrap/fonts/Gotham-Book.eot') format('embedded-opentype') /* FONTSOURCE1 */,
+         url('/e/bootstrap/fonts/Gotham-Book.woff2') format('woff2')/* FONTSOURCE1 */,
+         url('/e/bootstrap/fonts/Gotham-Book.woff') format('woff')/* FONTSOURCE1 */,
+         url('/e/bootstrap/fonts/Gotham-Book.ttf') format('truetype')/* FONTSOURCE1 */,
+         url('/e/bootstrap/fonts/Gotham-Book.svg#|FONTFAMILY1|') format('svg')/* FONTSOURCE1 */;
 }
 
-
 @font-face {
-	font-family: |FONTFAMILY2|;
-	src:|FONTSOURCE2| /* FONTSOURCE2 */;
-	font-weight:bold;	
+    font-family: '|FONTFAMILY1|' /* FONTFAMILY1*/;
+    src: url('/e/bootstrap/fonts/|FONTSOURCE2|.eot')/* FONTSOURCE2 */;
+    src: url('/e/bootstrap/fonts/|FONTSOURCE2|.eot') format('embedded-opentype') /* FONTSOURCE2 */,
+         url('/e/bootstrap/fonts/|FONTSOURCE2|.woff2') format('woff2') /* FONTSOURCE2 */,
+         url('/e/bootstrap/fonts/|FONTSOURCE2|.woff') format('woff') /* FONTSOURCE2 */,
+         url('/e/bootstrap/fonts/|FONTSOURCE2|.ttf') format('truetype') /* FONTSOURCE2 */,
+         url('/e/bootstrap/fonts/|FONTSOURCE2|.svg#|FONTFAMILY1|') format('svg') /* FONTSOURCE2 */ /* FONTFAMILY1*/;
+	font-weight:bold;
 }
 
 h1 {
