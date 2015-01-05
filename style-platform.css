@@ -376,6 +376,10 @@ ul.retailers_list li a, ul.retailers_list li span {
 	color:#FFF;
 	padding:8px 9px 8px 10px;
 }
+
+#retailer_listing th {
+	white-space:normal;	
+}
  
 input[type=radio].css-checkbox {
 	display:none;
@@ -711,6 +715,18 @@ button.activated {
 .menu_hide, .lockscreen_off{
     display: none;
 }
+
+form#registration_one select.form-control, 
+form#registration_two select.form-control {
+	display:block !important;	
+}
+
+form#registration_one div.form-group span, 
+form#registration_two div.form-group span {
+	display:none !important;	
+}
+
+
 /* My Account */
 
 
@@ -950,6 +966,10 @@ body {
    
 }
 
+}
+
+
+@media (max-width: 767px) {
 
 footer {
 	border-top:none;
@@ -993,17 +1013,18 @@ footer #copyright {
 
 @media (max-width: 642px) {
 .bx-wrapper {
-	max-width:526px !important;
+	max-width:490px !important;
 }	
 }
 
-@media (max-width: 609px) {
+@media (max-width: 540px) {
 	.bx-wrapper {
-	max-width:477px !important;
+	max-width:365px !important;
 }
 }
 
 @media (max-width: 500px) {
+	
 .bx-wrapper {
 	max-width:242px !important;
 }
