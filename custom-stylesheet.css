@@ -58,6 +58,13 @@ input.form-control, #srch-zip {
 	border-color:|COLOR3| /* COLOR3 */;
 }
 
+/* Featured Offers */
+
+#featured a.offer-imageLink {
+	color:|COLOR4| /* COLOR2 */;
+	font-weight:|FONTWEIGHT2| /* FONTWEIGHT2 */;	
+}
+
 
 /* Panels */
 
