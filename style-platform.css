@@ -1011,20 +1011,19 @@ footer #copyright {
 
 }
 
-@media (max-width: 642px) {
+@media (max-width: 670px) {
 .bx-wrapper {
-	max-width:490px !important;
+	max-width:482px !important;
 }	
 }
 
 @media (max-width: 540px) {
 	.bx-wrapper {
-	max-width:365px !important;
+	max-width:360px !important;
 }
 }
 
 @media (max-width: 500px) {
-	
 .bx-wrapper {
 	max-width:242px !important;
 }
