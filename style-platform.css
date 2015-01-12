@@ -740,6 +740,12 @@ form#registration_two div.form-group span {
 	margin-top:50px;	
 }
 
+/* Preferences */
+
+.modal .pref-box {
+	margin-top:-5px;	
+}
+
 /* Footer */
 
 footer {
