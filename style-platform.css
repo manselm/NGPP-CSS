@@ -422,6 +422,11 @@ label.css-label span.text {
 	margin-left:10px;	
 }
 
+#offer_table img {
+	max-width:100px;
+	max-height:100px;	
+}
+
 /* Activate Offers */
 
 button.activated {
