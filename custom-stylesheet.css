@@ -90,6 +90,21 @@ input.form-control, #srch-zip {
 
 #side_nav .panel-body {
 	padding-left:|INDENT| /* INDENT */;	}
+	
+/* Product Filters */
+
+#product_list ul li label {
+	font-weight:	|FONTWEIGHT1| /* FONTWEIGHT1 */;	
+}
+
+#product_list h5 {
+	font-weight:|FONTWEIGHT2| /* FONTWEIGHT2 */;	
+}
+
+#product_list p a {
+	color:|COLOR6| /* COLOR6 */;
+	font-weight:|FONTWEIGHT2| /* FONTWEIGHT2 */;	
+}
 
 /* Activate Offers */
 
