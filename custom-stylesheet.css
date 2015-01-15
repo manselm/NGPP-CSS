@@ -33,7 +33,7 @@ h1 {
 	font-size:|FONTSIZE2| /*FONTSIZE2*/;	
 }
 
-* a, a:hover {
+* a, a:hover, a:focus {
 	color:|COLOR1| /* COLOR1 */;
 }
 
@@ -90,6 +90,10 @@ input.form-control, #srch-zip {
 
 #side_nav .panel-body {
 	padding-left:|INDENT| /* INDENT */;	}
+	
+#side_nav .panel-body .nav>li>a:focus {
+	background:|COLOR5| /* COLOR5 */;
+}
 	
 /* Product Filters */
 
