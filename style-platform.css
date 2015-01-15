@@ -769,7 +769,7 @@ footer ul li {
 @media (min-width:991px) {
 	
 .container #content .main {
-	min-height:700px;	
+	min-height:768px;	
 }	
 	
 .navbar-collapse, .navbar .container-fluid {
