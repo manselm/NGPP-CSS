@@ -106,6 +106,16 @@ ul.nav-sidebar li a.active {
 	margin-left:25px;
 }	
 
+/* Product Filters Desktop */
+
+#product_list form ul {
+	margin-bottom:0px;	
+}
+
+#product_list form p {
+	margin-bottom:20px;
+}	
+
 
 
 /* Search Bar */
