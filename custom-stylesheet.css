@@ -187,6 +187,18 @@ ul.retailers_list li a  {
 	color:|COLOR4| /* COLOR4 */;	
 }
 
+/* Earn Summary */
+
+ul#summary_tabs, ul#summary_tabs li.active a {
+	border-color:|COLOR6| /* COLOR6 */;	
+}
+
+#redemption a {
+	color:|COLOR6| /* COLOR6 */;		
+	font-weight:|FONTWEIGHT2| /* FONTWEIGHT2 */;	
+}
+
+
 /* Footer */
 
 footer {
