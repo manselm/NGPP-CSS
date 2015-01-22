@@ -53,6 +53,10 @@ input.form-control, #srch-zip {
 	width:70%;
 }	
 
+.offcanvas ul.nav li ui li a {
+	white-space:normal;	
+}
+
 /* Top Links */
 
 #top_links a {
