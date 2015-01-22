@@ -1129,6 +1129,10 @@ footer #copyright {
 	white-space:nowrap;
 }
 
+#offer_table tr th {
+	white-space:normal;	
+}
+
 
 }
 .navbar-right {
