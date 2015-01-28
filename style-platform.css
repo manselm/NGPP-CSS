@@ -31,7 +31,7 @@ border-right: 1px solid #ffffff;
 }
 * { border-radius:0px !important; box-shadow:none !important;}
 
-* select {display:none !important;}
+* select {xdisplay:none !important;}
 
 input.form-control, #srch-zip {
 	background:#ebebeb;
