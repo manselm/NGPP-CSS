@@ -1133,6 +1133,10 @@ footer #copyright {
 	white-space:normal;	
 }
 
+ul#summary_tabs li a {
+	padding:15px 4px;	
+}
+
 
 }
 .navbar-right {
