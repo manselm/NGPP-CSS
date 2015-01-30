@@ -1137,6 +1137,11 @@ ul#summary_tabs li a {
 	padding:15px 4px;	
 }
 
+#category_dropdown {
+	padding-left:12px;
+	padding-right:0px;	
+}
+
 
 }
 .navbar-right {
