@@ -802,6 +802,7 @@ ul#summary_tabs li.active a {
 			border-bottom: 1px solid #eee; 
 			position: relative;
 			padding-left: 50%; 
+			word-wrap: break-word;
 		}
 		
 		#earn_summary td:before { 
