@@ -96,6 +96,12 @@ input.form-control, #srch-zip {
 #side_nav .panel-body .nav>li>a:focus {
 	background:|COLOR5| /* COLOR5 */;
 }
+
+/* Carousel */
+
+.carousel-caption {
+	color:|COLOR4| /* |COLOR4| */
+}
 	
 /* Product Filters */
 

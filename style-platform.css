@@ -152,6 +152,72 @@ img.ninety {
 	width:100%;	
 }
 
+.carousel-caption {
+	text-shadow:none;
+	color:#3276b1;		
+}
+
+.carousel-caption.solid_color {
+	color:#FFF;	
+}
+
+.carousel-caption.left {
+	text-align:left;
+	width:60%;
+	left:5%;
+	bottom:0px;
+
+}
+
+.carousel-caption img#banner_retailer {
+	max-width:170px;
+}
+
+.carousel-caption.no_logo {
+	bottom:10px;	
+}
+
+.carousel-caption.no_logo img#banner_retailer {
+	display:none;
+}
+
+.carousel-caption.no_logo h1 {
+	font-size:48px;	
+}
+
+.carousel-caption.no_logo p {
+	font-size:2em;
+}	
+
+.carousel-caption h1 {
+	font-size:34px;	
+}
+
+.carousel-caption p {
+	font-size:1.143em;	
+}
+
+.carousel-caption p.disclaimer {
+	display:inline-block;
+	margin-left:15px;	
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+
+.carousel-caption.no_logo h1 {
+	font-size:40px;	
+}
+
+.carousel-caption h1 {
+	font-size:24px;	
+}
+
+.carousel-caption img#banner_retailer {
+	max-width:120px;
+}
+
+}
+
 .carousel-indicators {
 	width:auto;	
 	margin-left:-5px;
