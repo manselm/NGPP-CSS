@@ -72,13 +72,15 @@ input.form-control, #srch-zip {
 #side_nav, #featured, #top_retailers {
 	border: |BORDERWIDTH1|  /* BORDERWIDTH1 */;	}
 
-.panel-default>.panel-heading {
+#featured .panel-default>.panel-heading,
+#top_retailers .panel-default>.panel-heading {
 	padding-left:|INDENT| /* INDENT */;	
 	background-color:|COLOR5| /* COLOR5 */;
 	font-weight:|FONTWEIGHT2| /* FONTWEIGHT2 */;
 	border-color:|COLOR4| /* COLOR4 */;
 }
-#offer_table thead>tr>th, .panel-default>.panel-heading {
+#offer_table thead>tr>th, .panel-default>.panel-heading,
+#top_retailers thead>tr>th, .panel-default>.panel-heading {
 	border-width:|BORDERWIDTH2| /* BORDERWIDTH2 */;	
 }
 
