@@ -72,8 +72,8 @@ input.form-control, #srch-zip {
 #side_nav, #featured, #top_retailers {
 	border: |BORDERWIDTH1|  /* BORDERWIDTH1 */;	}
 
-#featured .panel-default>.panel-heading,
-#top_retailers .panel-default>.panel-heading {
+#featured .panel-heading,
+#top_retailers .panel-heading {
 	padding-left:|INDENT| /* INDENT */;	
 	background-color:|COLOR5| /* COLOR5 */;
 	font-weight:|FONTWEIGHT2| /* FONTWEIGHT2 */;
