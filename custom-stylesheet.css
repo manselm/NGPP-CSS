@@ -201,7 +201,7 @@ ul#summary_tabs, ul#summary_tabs li.active a {
 	border-color:|COLOR6| /* COLOR6 */;	
 }
 
-#redemption a {
+#redemption a, #earn a {
 	color:|COLOR6| /* COLOR6 */;		
 	font-weight:|FONTWEIGHT2| /* FONTWEIGHT2 */;	
 }
