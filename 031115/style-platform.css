@@ -30,16 +30,6 @@ span.bold {
 	margin-top:10px;
 	margin-bottom:10px;
 }
-
-.locations a {
-	color:#58a4c1 /* |COLOR2| */;
-        cursor: pointer;
-}
-
-.locations a.disabled {
-	color:#ccc !important/* |COLOR2| */;
-}
-
 .sidebar a:hover {
 	background:none !important;
 }
@@ -1276,4 +1266,5 @@ ul#summary_tabs li a {
 }
 .navbar-right {
 }
+
 
