@@ -1089,12 +1089,14 @@ body {
 }
 
 .navmenu, .navbar-offcanvas {
-	width:60%;	
+	width:285px;
+	xoverflow-x:hidden;	
 }
 
 .offcanvas .dropdown-menu>li>a {
 	position:relative;
 	z-index:999999;	
+	white-space:normal;
 }
 
 .main, #carousel, #featured, #top_retailers {
