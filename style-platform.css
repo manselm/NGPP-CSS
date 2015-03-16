@@ -33,7 +33,7 @@ span.bold {
 
 .locations a {
 	color:#58a4c1 /* |COLOR2| */;
-        cursor: pointer;
+    cursor: pointer;
 }
 
 .locations a.disabled {
@@ -1072,6 +1072,10 @@ width: 25%;
   display: block;
 }
 
+#offer_table tr td.offer button {
+	margin:0px auto;	
+}
+
 
 	
 }
@@ -1080,6 +1084,10 @@ width: 25%;
 
 body {
 	padding-top:8px;	
+}
+
+.container {
+	overflow:hidden;	
 }
 
 .navmenu, .navbar-offcanvas {
