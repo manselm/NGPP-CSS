@@ -499,7 +499,11 @@ ul.retailers_list li a, ul.retailers_list li span {
  #offer_table tr td.offer span {
 	white-space:normal;	 
  }
- 
+
+#offer_table tr td:last-child span {
+	display:block;	 
+ }
+  
 #offer_pagination {
 	xborder: #ddd solid 1px; 
 	xbackground: #eee; 
