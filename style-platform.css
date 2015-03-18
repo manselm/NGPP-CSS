@@ -503,6 +503,10 @@ ul.retailers_list li a, ul.retailers_list li span {
 #offer_table tr td:last-child span {
 	display:block;	 
  }
+ 
+ #offer_table tr td:last-child span.glyphicon {
+	display:inline-block;	 
+ }
   
 #offer_pagination {
 	xborder: #ddd solid 1px; 
@@ -1170,6 +1174,9 @@ body {
 	margin-right:-15px;
 	max-width:110%; 
 	width:110%;
+ }
+ #offer_table tr th button {
+	margin-top:20px;	 
  }
  
  #mobile_facets .selectboxit {
