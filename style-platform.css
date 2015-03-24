@@ -1291,6 +1291,10 @@ ul#summary_tabs li a {
 	padding-right:0px;	
 }
 
+#avatar ul.dropdown-menu {
+	left:-115px;		
+}
+
 
 }
 .navbar-right {
