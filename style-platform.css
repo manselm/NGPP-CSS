@@ -496,6 +496,10 @@ ul.retailers_list li a, ul.retailers_list li span {
 	font-weight:normal; 
  }
  
+#offer_table tr th a {
+	font-weight:bold;
+}
+ 
  #offer_table tr td.offer span {
 	white-space:normal;	 
  }
