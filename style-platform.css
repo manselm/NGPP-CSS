@@ -67,6 +67,11 @@ input.form-control, #srch-zip {
         padding: 6px 12px;
 }
 
+.alert-success {
+	xmargin-top:15px;	
+}
+
+
 /* Off Canvas */
 
 .navmenu, .navbar-offcanvas {
@@ -333,6 +338,7 @@ a.offer-imageLink {
 	display:table-cell;
 	vertical-align:middle;	
 	margin:0px auto;
+	font-weight:bold;
 }
 
 /* Top Retailers */
@@ -344,7 +350,9 @@ a.offer-imageLink {
 #top_retailers .col-md-3 {
 	xheight:200px;	
 }
-
+#top_retailers a {
+	font-weight:bold;	
+}
 #top_retailers a img {
 	max-width:100px;
 	max-height:100px;	
@@ -586,7 +594,9 @@ label.css-label span.text {
 button.activated {
 	border-color:#3276b1;
 	color:#3276b1;
+	background-color:white;
 }
+
 
 /* Offer Details Arrows */
 
