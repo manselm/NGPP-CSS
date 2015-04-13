@@ -1085,6 +1085,10 @@ width: 25%;
 
 /* Mobile Navbar */
 
+.navbar-brand {
+	padding:0px;	
+}
+
 #mobile_nav div {
 	margin-bottom:10px;	
 }
