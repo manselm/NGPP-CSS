@@ -509,7 +509,8 @@ ul.retailers_list li a, ul.retailers_list li span {
 }
 
  #offer_table thead tr th {
-	font-weight:bold;	 
+	font-weight:bold;
+	width:auto;	 
  }
 
 #offer_table tr td, #offer_table tr th  {
@@ -1364,4 +1365,3 @@ ul#summary_tabs li a {
 }
 .navbar-right {
 }
-
