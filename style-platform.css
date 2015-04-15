@@ -397,6 +397,12 @@ li.zip_field {
 	width:30%;
 }
 
+/* How it Works */
+
+p.question {
+	margin-bottom:0px;	
+}
+
 @media (max-width:768px) {
 	li.zip_field { margin-bottom:-20px !important; width:60%;}	
 }
@@ -508,11 +514,12 @@ ul.retailers_list li a, ul.retailers_list li span {
 
 #offer_table tr td, #offer_table tr th  {
 	padding:20px 5px;
-	width:20%;	
+	xwidth:20%;	
 }
 
  #offer_table tr th {
-	font-weight:normal; 
+	font-weight:normal;
+	width:25%; 
  }
  
 #offer_table tr th a {
@@ -581,7 +588,7 @@ label.css-label {
 	border-radius:15px !important;
 	width:29px;
 	border:2px solid #428bca;
-	margin-right:120px;
+	margin-right:90px;
 	background-color:#FFF;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -592,7 +599,8 @@ label.css-label {
 }
 
 label.css-label span.text {
-	margin-left:10px;	
+	margin-left:10px;
+	font-size:.8em;	
 }
 
 #offer_table img {
