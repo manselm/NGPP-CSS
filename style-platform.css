@@ -110,7 +110,7 @@ input[type=number] {
 }
 
 .navbar-nav > li > a:focus {
-	background-color:transparent;	
+	background-color:#FFF;	
 }
 
 /* Navbar Toggle */
@@ -147,7 +147,7 @@ ul.nav-sidebar li a.active {
 }
 
 #side_nav .panel-body .nav>li>a:focus {
-	background-color:transparent;	
+	background-color:#FFF;	
 }
 
 #side_nav ul ul {
