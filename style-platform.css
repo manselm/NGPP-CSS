@@ -409,7 +409,7 @@ p.question {
 
 @media (max-width:502px) {
 	li.zip_field { margin-top:10px; width:53%;}
-	li.zip_field input {font-size:1.3em}
+	li.zip_field input {font-size:1.3em; margin-top:-3px}
 }
 
 /* Product Images */
