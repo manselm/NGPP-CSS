@@ -990,6 +990,7 @@ ul#summary_tabs li.active a {
 			position: relative;
 			padding-left: 50%; 
 			word-wrap: break-word;
+			min-height:37px;
 		}
 		
 		#earn_summary td:before { 
