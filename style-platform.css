@@ -1141,6 +1141,19 @@ width: 25%;
 #offer_table tr td.offer button {
 	margin:0px auto;	
 }
+ 
+ #mobile_facets .selectboxit {
+    width: 100% !important;
+}
+
+#mobile_facets .selectboxit-container {
+	width:100%;
+	margin-bottom:15px;
+}
+
+#mobile_facets .selectboxit-container .selectboxit-options {
+	width:100%;	
+}
 	
 }
 
@@ -1236,18 +1249,6 @@ body {
  #offer_table tr th button {
 	margin-top:20px;	 
  }
- 
- #mobile_facets .selectboxit {
-    width: 100% !important;
-}
-
-#mobile_facets .selectboxit-container {
-	width:100%;	
-}
-
-#mobile_facets .selectboxit-container .selectboxit-options {
-	width:100%;	
-}
  
 .pref-box label {
   margin:10px 0px;  
