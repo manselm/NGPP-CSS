@@ -109,6 +109,10 @@ input[type=number] {
 	margin-top:15px;
 }
 
+.navbar-nav > li > a:focus {
+	background-color:transparent;	
+}
+
 /* Navbar Toggle */
 
 .navbar-toggle {
@@ -140,6 +144,10 @@ ul.nav-sidebar li a.active {
 
 #side_nav .panel-body .nav>li>a {
 	padding-left:0px;	
+}
+
+#side_nav .panel-body .nav>li>a:focus {
+	background-color:transparent;	
 }
 
 #side_nav ul ul {
@@ -510,7 +518,8 @@ ul.retailers_list li a, ul.retailers_list li span {
 }
 
  #offer_table thead tr th {
-	font-weight:bold;	 
+	font-weight:bold;
+	width:auto;	 
  }
 
 #offer_table tr td, #offer_table tr th  {
@@ -1272,9 +1281,14 @@ body {
 #forgot_password .col-xs-10 .col-xs-3 input {
 	padding-left:5px;
 	padding-right:5px;
-	font-size:1.2em;
+	font-size:.9em;
+	text-align:center;
 }
 
+#registration_one .col-xs-1,
+#forgot_password .col-xs-1 {
+	margin-left:-10px;	
+}
 }
 
 
@@ -1309,7 +1323,7 @@ footer li a {
 }
 
 footer li a, footer li a:hover, footer li a:focus {
-	color:#FFF;	
+	xcolor:#FFF;	
 	text-decoration:none;
 }
 
