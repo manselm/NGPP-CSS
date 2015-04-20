@@ -1381,6 +1381,14 @@ ul#summary_tabs li a {
 }
 
 
+/* Profile Page */
+#account > tbody > tr > td {
+	float:left;
+	width:100%;	
+}
+#account > tbody > tr > td .btn {
+	float:none !important;	
+}
 }
 .navbar-right {
 }
