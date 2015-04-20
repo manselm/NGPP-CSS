@@ -408,7 +408,8 @@ li.zip_field {
 /* How it Works */
 
 p.question {
-	margin-bottom:0px;	
+	margin-bottom:0px;
+	font-weight:bold;	
 }
 
 @media (max-width:768px) {
@@ -417,7 +418,8 @@ p.question {
 
 @media (max-width:502px) {
 	li.zip_field { margin-top:10px; width:53%;}
-	li.zip_field input {font-size:1.3em; margin-top:-3px}
+	li.zip_field .input-group { margin-top:-3px;}
+	li.zip_field input {font-size:1.3em; margin-top:0px}
 }
 
 /* Product Images */
