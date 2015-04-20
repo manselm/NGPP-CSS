@@ -1389,6 +1389,9 @@ ul#summary_tabs li a {
 #account > tbody > tr > td .btn {
 	float:none !important;	
 }
+#account > tbody > tr > td input {
+	font-size:.9em;	
+}
 }
 .navbar-right {
 }
