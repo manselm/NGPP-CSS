@@ -13,6 +13,11 @@ border-right: 1px solid #ffffff;
 	border-radius:0px;
 }
 
+.btn-primary[disabled] {
+	background-color:#666;
+	border-color:#666;	
+}
+
 span.bold {
 	font-weight:bold;	
 }
