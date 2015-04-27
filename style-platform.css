@@ -1259,12 +1259,7 @@ body {
 		
 }
 
- #offer_table {
-	margin-left:-15px;
-	margin-right:-15px;
-	max-width:110%; 
-	width:110%;
- }
+
  #offer_table tr th button {
 	margin-top:20px;	 
  }
@@ -1301,6 +1296,13 @@ body {
 
 
 @media (max-width: 767px) {
+
+ #offer_table {
+	margin-left:-15px;
+	margin-right:-15px;
+	max-width:110%; 
+	width:110%;
+ }
 
 footer {
 	border-top:none;
