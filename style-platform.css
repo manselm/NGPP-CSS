@@ -662,8 +662,8 @@ p.question {
 
 @media (max-width:502px) {
 	li.zip_field { margin-top:10px; width:53%;}
-	li.zip_field .input-group input { margin-top:-3px;}
-	li.zip_field .input-group .input-group-btn { bottom:3px;}
+	li.zip_field .input-group input { margin-top:-6px;}
+	li.zip_field .input-group .input-group-btn { bottom:6px;}
 	li.zip_field input {font-size:1.1em; margin-top:0px}
 }
 
