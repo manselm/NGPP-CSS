@@ -338,7 +338,7 @@ img.ninety {
   text-indent: -100%;
 }
 .slides-pagination a.current {
-  background:#BB0826;
+  background:#337ab7;
 }
 #hero {
 	height:301px;	
@@ -363,10 +363,8 @@ img.ninety {
 }
 
 #hero .well {
-			background-color:white;
-			
-	
-		}
+	background-color:white;
+}
 #hero .banner_container {
 	xwidth:70%;
 	/*padding:10px 15px;*/
@@ -387,14 +385,25 @@ img.ninety {
 #hero .well {
 	xpadding:0px 40px;
 	border-color:white;
-	display:table !important;
+}
+#hero .well.active {
+	xdisplay:table !important;
+}
+#hero .well .container {
+	display:table;
+    width:100%;
+    height:100%;
+}
+#hero li>.container .row {
+    display:table-cell;
+    vertical-align:middle;
 }
 #hero .well.border {
 	border-color:#e3e3e3;	
 }
 #hero .banner_container,
 #hero li>.row {
-	display:table-cell;
+	xdisplay:table-cell;
 	vertical-align:middle;	
 }
 #hero .banner_container h1 {
@@ -408,7 +417,8 @@ img.ninety {
 	font-size:0.786em;	
 }
 #hero .banner_container img.retailer_img,
-#hero .upr_rightside img {
+#hero .upr_rightside img,
+#hero img.icons {
 	position:inherit !important;
 	left:0px !important;
 	top:0px !important;
@@ -422,6 +432,12 @@ img.ninety {
 	width:100% !important;
 	height:100% !important;	
 	max-width:193px !important;
+}
+
+#hero img.icons {
+	max-height:125px !important;
+	max-width:150px !important;
+	margin-bottom:15px;	
 }
 
 /* Bottom Pattern */
@@ -446,6 +462,20 @@ img.ninety {
 .dark_gradient {
 	color:#FFF;
 }
+/* Icons */
+
+li.icons {
+	text-align:center;	
+	color:#FFF;
+	text-decoration:none;
+}
+#hero li>a {
+	color:#FFF;
+	text-decoration:none;
+}
+li.icons h1 {
+	margin-top:0px;	
+}
 
 @media (min-width: 768px) and (max-width: 990px){
 #hero .well {
@@ -468,8 +498,13 @@ img.ninety {
 #hero .dark_gradient img {
 	opacity:1;	
 }
+#hero img.icons {
+	max-height:89px !important;
+	max-width:107px !important;
+}
 
 }
+
 
 /* Centered w Icons */
 
@@ -1490,7 +1525,27 @@ body {
 	padding-left:5px;
 	padding-right:5px;
 	font-size:.9em;
-	text-align:center;
+}
+
+#registration_one ::-webkit-input-placeholder,
+#forgot_password ::-webkit-input-placeholder {
+   text-align: center;
+}
+
+#registration_one :-moz-placeholder,
+#forgot_password :-moz-placeholder
+ { /* Firefox 18- */
+   text-align: center;  
+}
+
+#registration_one ::-moz-placeholder,
+#forgot_password ::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+#registration_one :-ms-input-placeholder,
+#forgot_password :-ms-input-placeholder {  
+   text-align: center; 
 }
 
 #registration_one .col-xs-1,
