@@ -1441,6 +1441,10 @@ body {
 	padding:0px;	
 }
 
+.main {
+	min-height:39vh;
+}
+
 #featured .panel, #top_retailers .panel {
 	border-left:0px;
 	border-right:0px;
@@ -1527,30 +1531,36 @@ body {
 	font-size:.9em;
 }
 
-#registration_one ::-webkit-input-placeholder,
-#forgot_password ::-webkit-input-placeholder {
+#registration_one ::-webkit-input-placeholder#cc_input,
+#forgot_password ::-webkit-input-placeholder#cc_input {
    text-align: center;
 }
 
-#registration_one :-moz-placeholder,
-#forgot_password :-moz-placeholder
+#registration_one :-moz-placeholder#cc_input,
+#forgot_password :-moz-placeholder#cc_input
  { /* Firefox 18- */
    text-align: center;  
 }
 
-#registration_one ::-moz-placeholder,
-#forgot_password ::-moz-placeholder {  /* Firefox 19+ */
+#registration_one ::-moz-placeholder#cc_input,
+#forgot_password ::-moz-placeholder#cc_input {  /* Firefox 19+ */
    text-align: center;  
 }
 
-#registration_one :-ms-input-placeholder,
-#forgot_password :-ms-input-placeholder {  
+#registration_one :-ms-input-placeholder#cc_input,
+#forgot_password :-ms-input-placeholder#cc_input {  
    text-align: center; 
 }
 
 #registration_one .col-xs-1,
 #forgot_password .col-xs-1 {
 	margin-left:-10px;	
+}
+
+/* Terms & Conditions */
+
+#terms .modal-body {
+	height:460px;	
 }
 }
 
