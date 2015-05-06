@@ -1551,7 +1551,7 @@ body {
 /* Terms & Conditions */
 
 #terms .modal-body {
-	height:460px;	
+	height:460px !important;	
 }
 }
 
