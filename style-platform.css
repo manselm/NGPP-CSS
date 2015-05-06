@@ -323,7 +323,7 @@ img.ninety {
 #hero .slides-pagination a {
   xborder: 2px solid #222;
   border-radius: 15px !important;
-  background:#8E8E8E;
+  xbackground:#8E8E8E;
   width: 10px;
   height: 10px;
   display: -moz-inline-stack;
@@ -642,7 +642,7 @@ li.zip_field {
 
 /* How it Works */
 
-#hiw a {
+.hiw a {
 	text-decoration:underline;	
 }
 
