@@ -588,6 +588,11 @@ a.offer-imageLink {
 	vertical-align:middle;	
 	margin:0px auto;
 	font-weight:bold;
+	cursor:default;
+}
+
+a.offer-imageLink:hover {
+	text-decoration:none;	
 }
 
 /* Top Retailers */
