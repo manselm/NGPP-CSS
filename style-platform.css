@@ -642,6 +642,10 @@ li.zip_field {
 
 /* How it Works */
 
+#hiw a {
+	text-decoration:underline;	
+}
+
 p.question {
 	margin-bottom:0px;
 	font-weight:bold;	
