@@ -583,7 +583,7 @@ img.ninety {
 
 a.offer-imageLink {
 	height:100px;
-	width:120px;
+	width:125px;
 	display:table-cell;
 	vertical-align:middle;	
 	margin:0px auto;
@@ -1609,15 +1609,21 @@ footer #copyright {
 
 }
 
+@media screen (min-width:991px) and (max-width: 670px) {
+.bx-wrapper {
+	max-width:570px !important;
+}
+}
+
 @media (max-width: 670px) {
 .bx-wrapper {
-	max-width:482px !important;
+	max-width:425px !important;
 }	
 }
 
 @media (max-width: 540px) {
 	.bx-wrapper {
-	max-width:360px !important;
+	max-width:415px !important;
 }
 }
 
