@@ -1609,7 +1609,7 @@ footer #copyright {
 
 }
 
-@media screen (min-width:991px) and (max-width: 670px) {
+@media (min-width:991px) and (max-width: 1200px) {
 .bx-wrapper {
 	max-width:570px !important;
 }
