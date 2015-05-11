@@ -271,6 +271,7 @@ img.ninety {
 
 #slides {
   position: relative;
+  touch-action: pan-x pan-y !important;	
 }
 #slides .slides-container {
   display: none;
@@ -349,7 +350,7 @@ img.ninety {
 		padding-left:0px;
 		padding-right:0px;
 		xmargin-left:-16px;
-		xmargin-right:-16px;	
+		xmargin-right:-16px;
 	}
 	
 	#hero .well {
@@ -530,6 +531,10 @@ img.ninety {
 
 #hero .campaign .banner_container {
 	width:100% !important;	
+}
+
+#hero .campaign .banner_container p {
+	margin-bottom:18px;
 }
 }
 
