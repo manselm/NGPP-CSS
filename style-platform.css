@@ -527,6 +527,10 @@ img.ninety {
 .banner_icons .col-md-4 p {
 	font-size:1.3em;	
 }
+
+#hero .campaign .banner_container {
+	width:100% !important;	
+}
 }
 
 
