@@ -391,7 +391,7 @@ img.ninety {
 }
 
 #hero .well {
-	xpadding:0px 40px;
+	padding:0px;
 	border-color:white;
 }
 #hero .well.active {
@@ -416,16 +416,6 @@ img.ninety {
 #hero .banner_container {
 	xdisplay:table-cell;
 	vertical-align:middle;
-	background: rgba(0, 0, 0, 0.5);
-	padding: 0px 10px;
-	-webkit-box-shadow:0 0 94px 59px rgba(0, 0, 0, 0.5) !important;
-	-moz-box-shadow:0 0 94px 59px rgba(0, 0, 0, 0.5) !important;
-	box-shadow:0 0 94px 59px rgba(0, 0, 0, 0.5) !important;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-ms-border-radius: 3px;
-	-o-border-radius: 3px;
-	border-radius: 3px;	
 }
 #hero .banner_container h1 {
 	margin-top:0px;
