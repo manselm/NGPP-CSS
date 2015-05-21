@@ -447,7 +447,7 @@ img.ninety {
 
 #hero .well.dark_gradient .container {
 	text-shadow: 0 1px 3px rgba(0,0,0,.6);
-		background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.5);
 	background: -moz-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 80%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0.5)), color-stop(80%, rgba(0,0,0,0)));
 	background: -webkit-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 80%);
@@ -579,6 +579,23 @@ background: -ms-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
 background: linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
   }
+    /* Light Gradient */
+  #hero li.well.light_gradient> .container {
+	text-shadow: 0 1px 3px rgba(255,255,255,.6);
+	background: rgba(255,255,255,0.5);
+background: -moz-linear-gradient(left, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0.5)), color-stop(100%, rgba(255,255,255,0.5)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%);
+background: linear-gradient(to right, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFFFFF', GradientType=1 );
+}
+
+#hero li.well.light_gradient img {
+	
+}
+
 }
 
 
@@ -1482,6 +1499,8 @@ body {
 	position:relative;
 	z-index:999999;	
 	white-space:normal;
+	padding-top:12px;
+	padding-bottom:12px;
 }
 
 .main, #carousel, #featured, #top_retailers {
