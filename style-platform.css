@@ -321,10 +321,10 @@ img.ninety {
   text-align: center;
   width: 100%;
 }
-#hero .slides-pagination a {
-  xborder: 2px solid #222;
+.slides-pagination a {
+  border: 2px solid #FFF;
   border-radius: 15px !important;
-  xbackground:#8E8E8E;
+  background:transparent;
   width: 10px;
   height: 10px;
   display: -moz-inline-stack;
@@ -338,8 +338,8 @@ img.ninety {
   overflow: hidden;
   text-indent: -99999px;
 }
-#hero .slides-pagination a.current {
-  background:#337ab7;
+.slides-pagination a.current {
+  background:#FFF;
 }
 #hero {
 	height:301px;	
