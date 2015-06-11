@@ -1517,6 +1517,12 @@ body {
 	border-radius:0px;	
 }
 	
+#top_retailers .col-md-3 {
+	height:150px;
+	padding-left:7px;
+	padding-right:7px;	
+}	
+	
 .btn-primary, .btn-default {
 	padding-top:12px;
 	padding-bottom:12px;	
