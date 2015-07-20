@@ -1674,7 +1674,7 @@ body {
 @media (max-width: 767px) {
 	
 #hero .well.dark_gradient .container {
-	0 1px 3px rgba(0,0,0,.6)
+	text-shadow:0 1px 3px rgba(0,0,0,.6);
 	background: rgba(0,0,0,0);
 background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 25%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(25%, rgba(0,0,0,0.3)), color-stop(50%, rgba(0,0,0,0.3)), color-stop(75%, rgba(0,0,0,0.3)), color-stop(100%, rgba(0,0,0,0)));
